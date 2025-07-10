@@ -1,0 +1,9 @@
+# Always normalize to LF on commit
+* text=auto
+
+# Handle Windows-specific scripts
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Keep shell scripts as LF
+*.sh text eol=lf
